@@ -1,0 +1,232 @@
+/* untuk header */
+.main-nav{
+    background-color: #606c38;
+}
+.main-nav .navbar-nav a.nav-link{
+    color: #fff;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active,.main-nav .navbar-nav .nav-link:hover{
+    color: #030302;
+}
+
+/* untuk global */
+.main-hijau{
+    background-color: #a3b18a;
+    color: #fff;
+}
+
+/* untuk destinasi */
+#Destination{
+    background-color: #bfcaac;
+}
+
+/* untuk souvenir */
+#Souvenir{
+    background-color: #a3b18a;
+}
+
+
+/* untuk contact */
+ #Contact{
+    background-color: #bfcaac;
+}
+
+/* untuk footer */
+#footer{
+    background-color: #bfcaac;
+}
+
+/* untuk admin */
+#Admin{
+    background-color: #bfcaac;
+}
+
+
+
+
+@media(min-width:568px){
+    .end{
+        margin-left: auto;
+    }
+}
+
+@media(max-width:768px){
+    #post{
+        width: 100%;
+    }
+}
+
+
+
+.comment{
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: rgba(16, 46, 46, 0.973);
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+    
+}
+.comment h4,.comment span,.darker h4,.darker span{
+    display: inline;
+}
+
+.comment p,.comment span,.darker p,.darker span{
+    color: rgb(129, 118, 118);
+}
+
+
+
+.labelcolor{
+    color: #606c38;
+}
+
+
+.form-group p a{
+    color: white;
+}
+
+#darker img{
+    margin-right: 15px;
+    position: static;
+}
+
+.form-group input,.form-group textarea{
+    background-color: white;
+    border: 1px solid rgba(16, 46, 46, 1);
+    border-radius: 12px;
+}
+
+form{
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: #bfcaac;
+    border-radius: 5px;
+    padding: 20px;
+ }
+
+ /* card */
+ 
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container-fostrap {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    color: #505050;
+  }
+  @media (min-width: 450px) {
+    h1.heading {
+      font-size: 3.55em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1.heading {
+      font-size: 3.05em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1.heading {
+      font-size: 3.25em;
+      margin: 0 0 0.3em;
+    }
+  } 
+  .card {
+    display: block; 
+      margin-bottom: 20px;
+      line-height: 1.42857143;
+      background-color: #fff;
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+      transition: box-shadow .25s; 
+  }
+  .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .img-card {
+    width: 100%;
+    height:200px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    display:block;
+      overflow: hidden;
+  }
+  .img-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    transition: all .25s ease;
+  } 
+  .card-content {
+    padding:15px;
+    text-align:left;
+    height: 150;
+  }
+  .card-title {
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+  }
+  .card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+  .card-read-more {
+    border-top: 1px solid #D4D4D4;
+  }
+  .card-read-more a {
+    text-decoration: none !important;
+    padding:10px;
+    font-weight:600;
+    text-transform: uppercase
+  }
+
+  .lengkap{
+    padding: 10px;
+    background-color: #505050;
+    color: white;
+    font-weight: bold;
+  }
+  .lengkap:hover{
+    background-color: #606c38;
+    color: white;
+  }
+
+  .deskripsini{
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 500;
+  }
+  .tengah{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .jarak{
+    padding-top: 100px;
+  }
+
+  .btn-tambah{
+    background-color: #606c38;
+    color: white;
+}
+
+.btn-tambah:hover{
+    background-color: #505a2f;
+    color: white;
+}
+.active:hover{
+  filter: drop-shadow(0px 7px 9px #000);
+}

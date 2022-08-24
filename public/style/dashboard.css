@@ -1,0 +1,16 @@
+.active{
+    background-color: #a3b18a;
+}
+
+.bg-sidebar{
+    background-color: #606c38;
+}
+.btn-tambah{
+    background-color: #606c38;
+    color: white;
+}
+
+.btn-tambah:hover{
+    background-color: #505a2f;
+    color: white;
+}
